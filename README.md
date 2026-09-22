@@ -2,11 +2,11 @@
 
 * 1. Facebook
 * ** URL:https://www.facebook.com/
-* ** Method: GET
-* ** Status code: 200 OK
-* ** content-Type: text/html
+* ** Method:GET
+* ** Status code:200 OK
+* ** content-Type:text/html
 
-* Riquest
+* Request
 * Untuk memeriksa atau melihat permintaan pertemanan yang terkirim di Facebook, buka menu Pertemanan Facebook dan lihat permintaan yang Anda kirim.
 
 * Response
@@ -14,9 +14,24 @@
 
 *  2. Roblox
 * ** URL:https://www.roblox.com
-* ** Method: GET
-* ** Status code: 200 OK
-* ** Content-Type: text/html
+* ** Method:GET
+* ** Status code:200 OK
+* ** Content-Type:text/html
 
-* Riquest
-* 
+* Request
+* Untuk mengirim permintaan HTTP di Roblox Studio, Anda harus terlebih dahulu mengaktifkan fitur tersebut di pengaturan game Anda dan kemudian menggunakan skrip HttpService milik Lua."
+
+* Response
+* Untuk menangani respons HTTP di Roblox,kita menggunakan HttpService untuk mengirim permintaan (requests) dan menguraikan data yang masuk (incoming data).
+
+* 3. Messenger
+* ** URL:https://www.messenger.com
+* ** Method:GET
+* ** status code:200 OK
+* ** Content-Type:text/html
+
+* Request
+* Di Roblox, melakukan permintaan (request) HTTP ke Messenger (seperti Facebook Messenger atau layanan Webhook/Messenger umum) memerlukan penggunaan HttpService di sisi server.
+
+* Response
+* Saat kita mengirim pesan, server messenger (seperti Discord, Telegram, atau Line) akan mengirimkan respons balik untuk memberi tahu apakah pesan tersebut berhasil masuk atau gagal (error).
